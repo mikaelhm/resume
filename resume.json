@@ -1,0 +1,174 @@
+{
+    "photo": true,
+    "personal" : {
+        "firstName": "Mikael Harkjær",
+        "lastName": "Møller",
+        "address": {
+            "street": "471 View ST, Apt. 3",
+            "city": "Mountain View",
+            "zip": 94041,
+            "state": "California",
+            "country": "USA"
+        },
+        "phone": "+1 669-600-9361",
+        "mail": "m@mikael.hm"
+    },
+    "socialMedia" : {
+        "GitHub": "https://github.com/mikaelhm",
+        "Facebook": "https://facebook.com/mikaelhm",
+        "Twitter": "https://twitter.com/mhmoeller",
+        "LinkedIn": "https://linkedin.com/in/mikaelhm/"
+    },
+    "jobs": [
+        {
+            "start": 2014,
+            "end": "present",
+            "title": "Software Engineer (JavaScript)",
+            "company": "Apozy Inc.",
+            "description": "Working as a full-stack JavaScript developer, with a Node.js, MongoDB and Redis based backend, and with AngularJS, Bootstrap and HTML5 based front-end"
+        }, {
+            "start": 2013,
+            "end": 2014,
+            "title": "Software Systems Engineer/Team Lead",
+            "company": "LitePoint Inc.",
+            "description": "I led the developement of a software project that aided RF-engineers with data analyzis and vizualizations. The tool was build around a JavaScript platform with a stand-alone front-end, a data-sharing backend, and an auto pdf-report generating tool. The front-end was build as a desktop app using technologies like; HTML5-WebWorkers, HTML5-AppCache, Node-Webkit, AngularJS, HighCharts, and Browserify. The backend was build in node.js on synth.js with MongoDB as data storage. Besides managing the project, my main focus is on the computanional efficiency, internal data-structure, and logic of the application."
+        }, {
+            "start": 2010,
+            "end": 2013,
+            "title": "",
+            "company": "Aalborg University - Department of Computer Science",
+            "description": "I was a Ph.D. student in the Embedded and Distributed Systems group. In my Ph.D., I am making formal verification more applicable in modern software development processes. Many of the existing formalisms are not expressive enough to model modern software systems. I am working towards extending this expressiveness while preserving the possibility of using the models for model checking. My main focus is on systems developed in software product lines and on systems based on asynchronously communicating components. My thesis is based on publications [1-5], and can be found on github.com/mikaelhm/phd."
+        }, {
+            "start": 2011,
+            "end": "present",
+            "title":  "Founder (Web Consultant/System admin)",
+            "company": "Mikael Harkjær Møller",
+            "description": "I am running my own small web-consultancy bureau. The majority of the projects have revolved around customized Wordpress-based websites. However, I am also developing more involved and custom solutions, like a monitoring system for a holiday house and a heating control system for a minor factory."
+        }, {
+            "start": 2011,
+            "end": "present",
+            "title": "Co-Founder (System Administrator)" ,
+            "company": "Urhost",
+            "description": "Urhost is a small web-hosting company that I founded with a phd-colleague. Urhost specializes in dedicated Typo3 and Wordpress solutions."
+        }, {
+            "start": 2007,
+            "end": 2010,
+            "title": "Web-developer (student-job)",
+            "company": "Sanistål A/S",
+            "description": "I worked as a student developer on a web-shop front-end for a major Danish wholesale company. The front-end was implemented using XHTML, CSS, JavaScript, and PHP. "
+        }
+    ],
+    "educations": [
+        {
+            "institute": "Aalborg University",
+            "year": 2013, 
+            "title": "Ph.D. Degree from Computer Science and Engineering"
+        }, {
+            "institute": "Aalborg University",
+            "year": 2010, 
+            "title": "Master of Science in Computer Science",
+            "remark": "(Cum Laude)"
+        }, {
+            "institute": "Aalborg University",
+            "year": 2008, 
+            "title": "Bachelor of Science in Computer Science and Mathematics"
+        }
+    ],
+    "skills": {
+        "Programming Languages": [
+                "JavaScript",
+                "HTML5",
+                "CSS3",
+                "JSON",
+                "Python",
+                "PHP",
+                "Yaml",
+                "Java",
+                "XML",
+                "SQL",
+                "C#"
+            ],
+        "Mastered Technologies": [
+            "Node.js",
+            "MongoDB",
+            "Redis",
+            "MySQL",
+            "Apache",
+            "Android",
+            "AngularJS",
+            "Git",
+            "Web Services",
+            "Linux",
+            "Mac OS X",
+            "Windows"
+        ]
+    },
+    "publications": [
+        {
+            "title": "Channel Properties of Asynchronously Composed Petri Nets",
+            "authors": "S. Haddad, R. Hennicker, and M. H. Møller",
+            "reference": "In Proceedings of the 34th International Conference on Application and Theory of Petri Nets and Concurrency (PN'13), LNCS vol. 7927, p. 369-388",
+            "desc": "We present a set of relevant communication properties of asynchronously communicating systems. We prove that it is possible to verify these properties and that it can be done in an efficient way."
+        }, {
+            "title": "Specification of Asynchronous Component Systems with Modal I/O-Petri Nets",
+            "authors": "S. Haddad, R. Hennicker, and M. H. Møller",
+            "reference": "In Proceedings of the 8th International Symposium on Trustworthy Global Computing (TGC 2013)",
+            "desc": "We extend the results of [1] and present a framework and method that support the development of systems based on asynchronously communicating component. The framework ensures that the communication in the system meets certain requirements."
+        }, {
+            "title": "Parametric Modal Transition Systems",
+            "authors": "N. Benes, J. Kretinsky, K.G. Larsen, M.H. Møller, and J. Srba",
+            "reference": "In Proceedings of the 9th International Symposium on Automated Technology for Verification and Analysis (ATVA'11) LNCS vol. 6996, p. 275-289",
+            "desc": "In this paper, we extend a well-known modelling framework to make it more applicable in software development processes. For instance, we are able to express optional features by this extension. Furthermore, we prove that if the abstract model has a certain property, then all implementations (all combinations of features) will have the property."
+        }, {
+            "title": "Dual-Priced Modal Transition Systems with Time Durations",
+            "authors": "N. Benes, J. Kretinsky, K.G. Larsen, M.H. Møller, and J. Srba",
+            "reference": "In Proceedings of the 18th International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR'12), LNCS vol 7180, p. 122-137",
+            "desc": "We extend the model from [3] even further with time and cost quantities. This gives the developers of a system the possibility to reason about implementation cost and running cost of a final implementation of the system. This method can also verify if there exists a possible implementation within the budget."
+        }, {
+            "title": "A Characterizing Logic for Boolean Modal Transition Systems",
+            "authors": "M. H. Møller, K. G. Larsen, and X Liu",
+            "reference": "In Proceedings of the 8th Annual Doctoral Workshop on Mathematical and Engineering Methods in Computer Science (MEMICS'12)",
+            "desc": "In this paper, we present an add-on to the formalism presented in [3]. It is a formal logic that can determine which combination of features that yield an implementation that satisfies certain safety requirements."
+        }, {
+            "title": "Compositional verification of real-time systems using Ecdar",
+            "authors": "A. David, K. G. Larsen, A. Legay, M. H. Møller, U. Nyman, A. P. Ravn, A. Skou and Andrzej Wąsowski",
+            "reference": "In International Journal on Software Tools for Technology Transfer, vol.14, no. 6, p. 703-720. Springer-Verlag, Germany",
+            "desc": "We present a method on how to perform compositional model-checking with the tool Ecdar. In compositional model-checking, model-checking is done component-wise. This makes it possible to apply model-checking to larger and more complex system models."
+        }, {
+            "title": "Undecidability of Coverability and Boundedness for Timed-Arc Petri Nets with Invariants",
+            "authors": "L. Jacobsen, M. Jacobsen, and M.H. Møller",
+            "reference": "In Proceedings of the 5th Annual Doctoral Workshop on Mathematical and Engineering Methods in Computer Science (MEMICS’09), Dagstuhl, Germany, 2009.",
+            "desc": "We present two undecidability results, showing that two important properties of Petri nets cannot always be decided for a certain extension of timed-arc Petri nets."
+        }, {
+            "title": "A Framework for Relating Timed Transition Systems and Preserving TCTL Model Checking",
+            "authors": "L. Jacobsen, M. Jacobsen, M.H. Møller, and J. Srba",
+            "reference": "In Proceedings of the 7th European Performance Engineering Workshop (EPEW'10), LNCS vol. 6342, p. 83-98'",
+            "desc": "We provide a framework that makes it easier to prove the correctness of translations between formal specification formalisms. We formulate a set of requirements for the translation. The translation is correct if each requirement is met. In most cases, the requirements are easier to prove than the correctness itself."
+        }, {
+            "title": "Verification of Timed-Arc Petri Nets",
+            "authors": "L. Jacobsen, M. Jacobsen, M.H. Møller, and J. Srba",
+            "reference": "In Proceedings of the 37th International Conference on Current Trends in Theory and Practice of Computer Science (SOFSEM`11), LNCS vol. 6543, p. 46-72'",
+            "desc": "We present a way to perform formal verification of timed-arc Petri nets using an existing state-of-the-art model-checking tool for another formalism. The timed-arc Petri nets are translated into timed automata by an efficient algorithm. The translation is shown to be correct by the method presented in [8]."
+        }, {
+            "title": "TAPAAL 2.0: Integrated Development Environment for Timed-Arc Petri Nets",
+            "authors": "A. David, L. Jacobsen, M. Jacobsen, K.Y. Jørgensen, M.H. Møller, and J. Srba",
+            "reference": "In Proceedings of the 18th International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS`12), LNCS vol 7214, p. 492-497",
+            "desc": "The paper is a tool presentation of our model-checking tool TAPAAL. TAPAAL is an easy-to-use and time-efficient model checker that we have developed on the basis of our theoretical results."
+        }
+    ],
+    "softwareProjects": [
+        {
+            "title": "Vindstød - Web-service Client",
+            "desc": "I developed a communication module for a private Danish electricity supplier. The module integrates their existing management software with the national DataHub, a web-service for communication between players on the Danish electricity market. The module is implemented in Python and utilizes a MySQL database as an interface between itself and the existing platform."
+        }, {
+            "title": "Holiday Home Energy Monitoring",
+            "desc": "The purpose of this system is to report the energy consumption in a holiday house. The owner of the house wishes to ensure that the guests have lowered the pool and room temperatures before departure. The system consists of three parts: a sensor unit in the house, a simple web-service for logging the data, and a web-application that shows and visualizes the data. The sensor unit is based on an Electric Imp (a small micro-controller based system) that measures electricity usage, room temperature, and water temperature in the pool. The unit reports to the web-service, which is written in PHP. The web-application is implemented with Bootstrap and jQuery. It requests data from the web-service."
+        }, {
+            "title": "3N Lak - Heating Control System",
+            "desc": "3N Lak is a small painting company, that paints various items from cars to small components. They need a system to manage the temperatures in each hall. Each room will be equipped with a Raspberry Pi that measures room temperature and starts and stops the heater. Each of these devices is controlled from a web-application that is developed using the Python Django framework."
+        }, {
+            "title": "TAPAAL - Model-Checker",
+            "desc": "During my scientific work, I have mainly been working with formal verification. To demonstrate some of the results, I have developed the model checking tool TAPAAL in collaboration with some colleagues. TAPAAL is a user-friendly model-checker with a graphical editor and simulator. The development started six years ago, and is still active. The tool is mainly implemented in Java, but some of the engines are done in C++. My contribution is mainly based on the results published in [7-10]."
+        }
+    ]
+}
