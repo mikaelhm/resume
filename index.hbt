@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume for {{personal.firstName}} {{personal.lastName}}</title>
+    <link rel="stylesheet" type="text/css" href="css/dark.css" />
+    <link rel="stylesheet" href="css/printable.css" type="text/css" media="print" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+<body>
+    <div id="content">
+        <div id="header">
+            <span class="header_name">{{personal.firstName}} {{personal.lastName}}</span><br />
+            <span id="resume_subtitle" class="subtitle">
+                <a href="javascript:window.print()">Print Me</a>
+            </span>
+            <span id="print_subtitle">
+                
+            </span>
+        </div>
+        <div id="left_col">
+            {{#each jobs}}
+            <div class="item">
+                <span class="large_title">{{start}} - {{end}}</span><br />
+                <span class="title">{{title}}</span><br />
+                <span class="subtitle">{{company}}</span><br />
+                <p>{{description}}</p>
+            </div>
+            {{/each}}
+
+        </div>
+        <div id="right_col">
+            {{#if photo}}
+            <div class="item"><img src="profile.jpg" style="width: 300px;"/></div>
+            {{/if}}
+            
+            <div class="item">
+                <span class="large_title">Degrees</span><br />
+                {{#each educations}}
+                    <p>
+                        <span class="title">{{institute}} - {{year}}</span><br>
+                        {{title}} <span style="font-style: italic; ">{{remark}}</span>
+                    </p>
+                {{/each}}
+            </div>
+            
+            <div class="item">
+                <span class="large_title">Skils</span><br />
+                {{#each skills}}
+                    <p>
+                        <span class="title">{{@key}}</span><br>
+                        {{#each this}}{{#if @index}}, {{/if}}{{this}}{{/each}}
+                        </span>
+                    </p>
+                {{/each}}
+            </div>
+            <div class="item">
+                <span class="large_title">Contact</span><br>
+                How to get a hold of me<br>
+                
+                <p>
+                    <span class="title">Address</span><br>
+                    <span class="subtitle">{{personal.address.street}}, {{personal.address.city}}, {{personal.address.zip}}, {{personal.address.state}}, {{personal.address.country}}</span>
+                </p>
+                <p>
+                    <span class="title">Phone</span><br>
+                    <span class="subtitle">{{personal.phone}}</span>
+                </p>
+                <p>
+                    <span class="title">Mail</span><br>
+                    <span class="subtitle"><a href="mailto:{{personal.mail}}">{{personal.mail}}</a></span>
+                </p>
+                {{#each socialMedia}}
+                <p>
+                    <span class="title">{{@key}}</span><br>
+                    <span class="subtitle"><a href="{{this}}">{{this}}</a></span>
+                </p>
+                {{/each}}
+            </div>
+        </div>
+        <div style="page-break-after:always"></div>
+        <div id="footer">
+            <div class="item">
+                <span class="large_title">Software Projects</span><br />
+                {{#each softwareProjects}}
+                <p>
+                    <span class="title">{{title}}</span><br />
+                    <span class="desc">{{desc}}</span>
+                </p>
+                {{/each}}
+            </div>
+
+            <div class="item">
+                <span class="large_title">Publications</span><br />
+                {{#each publications}}
+                <p>
+                    <span class="title">[{{@index}}] {{title}}</span><br />
+                    <span class="subtitle">{{authors}}</span><br />
+                    {{reference}}<br>
+                    <span class="desc">{{desc}}</span>
+                </p>
+                {{/each}}
+            </div>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+    <script>
+  
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40708472-1', 'mikael.hm');
+  ga('send', 'pageview');
+
+</script>
+</body>
