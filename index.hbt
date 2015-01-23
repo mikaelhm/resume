@@ -44,7 +44,7 @@
             </div>
             
             <div class="item">
-                <span class="large_title">Skils</span><br />
+                <span class="large_title">Skills</span><br />
                 {{#each skills}}
                     <p>
                         <span class="title">{{@key}}</span><br>

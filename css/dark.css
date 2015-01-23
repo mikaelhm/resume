@@ -1,5 +1,5 @@
 /* Portfolio Main Styles */
-@import url('fonts.css');
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 /* Set it up! */
 body
@@ -7,20 +7,18 @@ body
 	margin: 45px 20px 200px 20px;
 	background-color: #222426;
 	color: #616363;
-	font-family: "HelveticaNeue";
+	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 }
 a
 {
 	color: #838686;
-	font-family: "HelveticaNeue";
 	font-size: 14px;
 	text-decoration: none;
 }
 a:hover
 {
 	color: #1fb3ff;
-	font-family: "HelveticaNeue";
 	font-size: 14px;
 	text-decoration: underline;
 }
@@ -58,19 +56,19 @@ div#right_col
 .header_name
 {
 	color: #fff;
-	font-family: "HelveticaNeueLight";
+	font-weight: 300;
 	font-size: 84px;
 }
 .large_title
 {
 	color: #1fb3ff;
-	font-family: "HelveticaNeueLight";
+	font-weight: 300;
 	font-size: 36px;
 }
 .title
 {
 	color: #fff;
-	font-family: "HelveticaNeueBold";
+	font-weight: 700;
 	font-size: 14px;
 }
 
@@ -83,7 +81,6 @@ div#right_col
 .subtitle, .desc
 {
 	color: #b8b8b8;
-	font-family: "HelveticaNeue";
 	font-size: 14px;
 }
 .subtitle a
@@ -93,14 +90,12 @@ div#right_col
 	-o-transition:all 0.35s ease;
 	transition:all 0.35s ease;
 	color: #b8b8b8;
-	font-family: "HelveticaNeue";
 	font-size: 14px;
 	text-decoration: none;
 }
 .subtitle a:hover
 {
 	color: #1fb3ff;
-	font-family: "HelveticaNeue";
 	font-size: 14px;
 	text-decoration: underline;
 }

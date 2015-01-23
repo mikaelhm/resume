@@ -25,7 +25,7 @@
             "end": "present",
             "title": "Software Engineer (JavaScript)",
             "company": "Apozy Inc.",
-            "description": "Working as a full-stack JavaScript developer, with a Node.js, MongoDB and Redis based backend, and with AngularJS, Bootstrap and HTML5 based front-end"
+            "description": "Working as a full-stack JavaScript developer, with a Node.js, MongoDB and Redis based backend, and with AngularJS, Bootstrap and HTML5 based front-end. In addition, I am responsible for web-ops processes like automatic deploy, server provisioning and cofiguration using Salt. We're building a web-based security awareness training platform using, open-source frameworks and libraries such Node.js, AngularJS, MongoDB, Redis, D3.js, and more."
         }, {
             "start": 2013,
             "end": 2014,
@@ -37,7 +37,7 @@
             "end": 2013,
             "title": "",
             "company": "Aalborg University - Department of Computer Science",
-            "description": "I was a Ph.D. student in the Embedded and Distributed Systems group. In my Ph.D., I am making formal verification more applicable in modern software development processes. Many of the existing formalisms are not expressive enough to model modern software systems. I am working towards extending this expressiveness while preserving the possibility of using the models for model checking. My main focus is on systems developed in software product lines and on systems based on asynchronously communicating components. My thesis is based on publications [1-5], and can be found on github.com/mikaelhm/phd."
+            "description": "I was a Ph.D. student in the Embedded and Distributed Systems group. In my Ph.D., I am making formal verification more applicable in modern software development processes. Many of the existing formalisms are not expressive enough to model modern software systems. I am working towards extending this expressiveness while preserving the possibility of using the models for model checking. My main focus is on systems developed in software product lines and on systems based on asynchronously communicating components. My thesis is based on publications [0-4], and can be found on github.com/mikaelhm/phd."
         }, {
             "start": 2011,
             "end": "present",
@@ -94,13 +94,12 @@
             "Redis",
             "MySQL",
             "Apache",
-            "Android",
             "AngularJS",
             "Git",
+            "Salt",
             "Web Services",
-            "Linux",
-            "Mac OS X",
-            "Windows"
+            "Grunt",
+            "HighCharts/D3"
         ]
     },
     "publications": [

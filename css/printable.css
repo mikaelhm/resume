@@ -13,14 +13,12 @@ body
 a
 {
 	color: #111;
-	font-family: "HelveticaNeue";
 	font-size: 14px;
 	text-decoration: none;
 }
 a:hover
 {
 	color: #111;
-	font-family: "HelveticaNeue";
 	font-size: 14px;
 	text-decoration: underline;
 }
@@ -58,25 +56,24 @@ div#right_col
 .header_name
 {
 	color: #111;
-	font-family: "HelveticaNeueLight";
+	font-weight: 300;
 	font-size: 84px;
 }
 .large_title
 {
 	color: #111;
-	font-family: "HelveticaNeueLight";
+	font-weight: 300;
 	font-size: 36px;
 }
 .title
 {
 	color: #111;
-	font-family: "HelveticaNeueBold";
+	font-weight: 700;
 	font-size: 14px;
 }
 .subtitle
 {
 	color: #444;
-	font-family: "HelveticaNeue";
 	font-size: 14px;
 }
 .subtitle a
@@ -86,14 +83,12 @@ div#right_col
 	-o-transition:all 0.35s ease;
 	transition:all 0.35s ease;
 	color: #222;
-	font-family: "HelveticaNeue";
 	font-size: 14px;
 	text-decoration: none;
 }
 .subtitle a:hover
 {
 	color: #333;
-	font-family: "HelveticaNeue";
 	font-size: 14px;
 	text-decoration: underline;
 }
