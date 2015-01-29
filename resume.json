@@ -1,5 +1,5 @@
 {
-    "photo": true,
+    "photo": false,
     "personal" : {
         "firstName": "Mikael Harkjær",
         "lastName": "Møller",
@@ -25,19 +25,19 @@
             "end": "present",
             "title": "Software Engineer (JavaScript)",
             "company": "Apozy Inc.",
-            "description": "Working as a full-stack JavaScript developer, with a Node.js, MongoDB and Redis based backend, and with AngularJS, Bootstrap and HTML5 based front-end. In addition, I am responsible for web-ops processes like automatic deploy, server provisioning and cofiguration using Salt. We're building a web-based security awareness training platform using, open-source frameworks and libraries such Node.js, AngularJS, MongoDB, Redis, D3.js, and more."
+            "description": "Working as a full-stack JavaScript developer, with a Node.js, MongoDB and Redis based backend, and with AngularJS, Bootstrap and HTML5 based front-end. In addition, I am responsible for web-ops processes like automatic deploy, server provisioning and cofiguration using Salt."
         }, {
             "start": 2013,
             "end": 2014,
             "title": "Software Systems Engineer/Team Lead",
             "company": "LitePoint Inc.",
-            "description": "I led the developement of a software project that aided RF-engineers with data analyzis and vizualizations. The tool was build around a JavaScript platform with a stand-alone front-end, a data-sharing backend, and an auto pdf-report generating tool. The front-end was build as a desktop app using technologies like; HTML5-WebWorkers, HTML5-AppCache, Node-Webkit, AngularJS, HighCharts, and Browserify. The backend was build in node.js on synth.js with MongoDB as data storage. Besides managing the project, my main focus is on the computanional efficiency, internal data-structure, and logic of the application."
+            "description": "I led the developement of a software project that aided RF-engineers with data analyzis and vizualizations. The tool was build around a JavaScript platform with a stand-alone front-end, a data-sharing backend, and an auto pdf-report generating tool. Leading the project involved planning realeases that has to fullfil requirements from both internal engineering departments and external customers. Project stability was achieved using dedicated QA-engineers"
         }, {
             "start": 2010,
             "end": 2013,
-            "title": "",
+            "title": "Ph.D fellow",
             "company": "Aalborg University - Department of Computer Science",
-            "description": "I was a Ph.D. student in the Embedded and Distributed Systems group. In my Ph.D., I am making formal verification more applicable in modern software development processes. Many of the existing formalisms are not expressive enough to model modern software systems. I am working towards extending this expressiveness while preserving the possibility of using the models for model checking. My main focus is on systems developed in software product lines and on systems based on asynchronously communicating components. My thesis is based on publications [0-4], and can be found on github.com/mikaelhm/phd."
+            "description": "I was a Ph.D. fellow in the Embedded and Distributed Systems group. In my Ph.D., I am making formal verification more applicable in modern software development processes. Many of the existing formalisms are not expressive enough to model modern software systems. I am working towards extending this expressiveness while preserving the possibility of using the models for model checking. My main focus is on systems developed in software product lines and on systems based on asynchronously communicating components. My thesis is based on publications [0-4], and can be found on github.com/mikaelhm/phd."
         }, {
             "start": 2011,
             "end": "present",
@@ -157,14 +157,19 @@
     ],
     "softwareProjects": [
         {
+            "title": "Apozy - Gamified Security Awareness Training",
+            "desc": "Apozy is a training platform which aims at training employees of larger corps about security in a more fun and engaging maner. In addition, Apozy provides metrics to the company security managament about the employees knowledge, actions and additude towards security. The product is developed on a JavaScript-based stack, with Node.js as the backend-engine using the Sails.js platform (Ruby on Rails inspired) with no-SQL databases MongoDB and Redis. The front end is based on a AngularJS and Bootstrap, utilzing open source libraries like D3.js and GSAP, and more. The product is developed with a small team of 3 developers using agile process with code-reviews and short and fast release cycles. Approved change are automatically deployed a development environment for testing, and releases are automatically deployed on prodcution servers."
+        },
+        {
+            "title": "IQramp (LitePoint) - Data Analytics tool for RF-engineers",
+            "desc": "IQramp is a data analytics tool used by RF-engineers to get a better understading of test results, and easier debug and track down error in wireless communication. The product is developed on a JavaScript-based stack, initially with a Node.js and MongoDB backend and an AngularJS front-end. Later on, the product evolved into a stand-alone desktop tool, inorder to support in-factory engineers with no internet access. This was achived ising the node-webkit to shell the web-app and browserify let us reuse our Node.js modules, and implement the computational task of the backend in HTML5 WebWorkers. Data-sharing between RF-engineers was supported by a much simplified node.js backend developed using Synth.js"
+        },
+        {
             "title": "Vindstød - Web-service Client",
             "desc": "I developed a communication module for a private Danish electricity supplier. The module integrates their existing management software with the national DataHub, a web-service for communication between players on the Danish electricity market. The module is implemented in Python and utilizes a MySQL database as an interface between itself and the existing platform."
         }, {
             "title": "Holiday Home Energy Monitoring",
             "desc": "The purpose of this system is to report the energy consumption in a holiday house. The owner of the house wishes to ensure that the guests have lowered the pool and room temperatures before departure. The system consists of three parts: a sensor unit in the house, a simple web-service for logging the data, and a web-application that shows and visualizes the data. The sensor unit is based on an Electric Imp (a small micro-controller based system) that measures electricity usage, room temperature, and water temperature in the pool. The unit reports to the web-service, which is written in PHP. The web-application is implemented with Bootstrap and jQuery. It requests data from the web-service."
-        }, {
-            "title": "3N Lak - Heating Control System",
-            "desc": "3N Lak is a small painting company, that paints various items from cars to small components. They need a system to manage the temperatures in each hall. Each room will be equipped with a Raspberry Pi that measures room temperature and starts and stops the heater. Each of these devices is controlled from a web-application that is developed using the Python Django framework."
         }, {
             "title": "TAPAAL - Model-Checker",
             "desc": "During my scientific work, I have mainly been working with formal verification. To demonstrate some of the results, I have developed the model checking tool TAPAAL in collaboration with some colleagues. TAPAAL is a user-friendly model-checker with a graphical editor and simulator. The development started six years ago, and is still active. The tool is mainly implemented in Java, but some of the engines are done in C++. My contribution is mainly based on the results published in [7-10]."

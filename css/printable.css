@@ -4,7 +4,7 @@
 /* Set it up! */
 body
 {
-	margin: 45px 20px 20px 20px;
+	margin: 10px 20px 20px 20px;
 	background-color: #fff;
 	color: #616363;
 	font-family: "HelveticaNeue";
@@ -57,7 +57,7 @@ div#right_col
 {
 	color: #111;
 	font-weight: 300;
-	font-size: 84px;
+	font-size: 50px;
 }
 .large_title
 {
@@ -123,4 +123,8 @@ div#right_col
 #print_subtitle
 {
 	display: block;
+}
+
+#profile-img {
+	display: none;
 }
