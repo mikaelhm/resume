@@ -4,7 +4,7 @@
         "firstName": "Mikael Harkjær",
         "lastName": "Møller",
         "address": {
-            "street": "471 View ST, Apt. 3",
+            "street": "700 Chiquita Ave, Apt. 3",
             "city": "Mountain View",
             "zip": 94041,
             "state": "California",
@@ -15,14 +15,27 @@
     },
     "socialMedia" : {
         "GitHub": "https://github.com/mikaelhm",
-        "Facebook": "https://facebook.com/mikaelhm",
         "Twitter": "https://twitter.com/mhmoeller",
         "LinkedIn": "https://linkedin.com/in/mikaelhm/"
     },
     "jobs": [
         {
+            "start": 2017,
+            "end": "current",
+            "title": "Software Engineer",
+            "company": "Apple Inc.",
+            "description": "Leading and developing certification tools for HomeKit accessories"
+        }, 
+        {
+            "start": 2015,
+            "end": 2017,
+            "title": "Software Engineer ",
+            "company": "Apple Operations Europe",
+            "description": "Developing, arcitechturing and running several applications supporting Apples ecosystem certification programs."
+        }, 
+        {
             "start": 2014,
-            "end": "present",
+            "end": "2015",
             "title": "Software Engineer (JavaScript)",
             "company": "Apozy Inc.",
             "description": "Working as a full-stack JavaScript developer, with a Node.js, MongoDB and Redis based backend, and with AngularJS, Bootstrap and HTML5 based front-end. In addition, I am responsible for web-ops processes like automatic deploy, server provisioning and cofiguration using Salt."
@@ -76,30 +89,27 @@
     ],
     "skills": {
         "Programming Languages": [
-                "JavaScript",
-                "HTML5",
-                "CSS3",
-                "JSON",
-                "Python",
-                "PHP",
-                "Yaml",
-                "Java",
-                "XML",
-                "SQL",
-                "C#"
+            "Swift",
+            "Objective-C",
+            "Ruby",
+            "JavaScript",
+            "JSON",
+            "Yaml",
+            "Bash"
             ],
-        "Mastered Technologies": [
-            "Node.js",
-            "MongoDB",
-            "Redis",
-            "MySQL",
-            "Apache",
-            "AngularJS",
-            "Git",
-            "Salt",
+        "Mastered Technologies/Frameworks": [
+            "Ruby on Rails", 
+            "HAML", 
+            "Node.js", 
+            "Chef",  
+            "JSON", 
+            "XML", 
+            "MySQL",  
+            "Nginx", 
+            "Git", 
             "Web Services",
-            "Grunt",
-            "HighCharts/D3"
+            "Docker",
+            "LaTeX"
         ]
     },
     "publications": [
